@@ -1,0 +1,78 @@
+body{
+    background:seagreen;
+}
+
+h1{
+    text-align: center;
+}
+.btns{
+    width: 500px;
+    margin: 30px 450px;
+    padding-left: 280px
+    
+}
+.car{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+.racetrack{
+    background: url(../img/Untitled.jpg) center left repeat-x;
+    height: 300px;
+    box-sizing: border-box;
+    border-right: 20px dashed white;
+}
+#raceInfoContainer{
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto;
+    background: #4c4c4b;
+    
+}
+h2{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-bottom: 3px solid white;
+}
+.raceInfo{
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+    font-size: 20px;
+    font: bold;
+}
+#raceInfo1{
+    color: yellow;
+}
+#raceInfo2{
+    color: blue;
+}
+#raceInfo1 span{
+    display: block;
+    color: white;
+    
+}
+#raceInfo2 span{
+    display: block;
+    color: white;
+    
+}
+
+.borderlines{
+    height: 50px;
+    background: url(../img/borderlines.jpg) center left repeat-x;
+    
+
+}
+header{
+    width: 250px;
+    height: 200px;
+    margin: 5px auto;
+
+
+}
+
+

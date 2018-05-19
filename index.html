@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>LAGS Race Game</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header><img src="img/race logo.png"></header>
+    <div class="btns">
+        <input type="button" class="btn btn-primary" id="go" value="Race!">
+        <input type="button" class="btn btn-warning" id="reset" value="Reset">
+    </div>
+    <div class="borderlines"></div>
+        <div class="racetrack">
+            <img src="img/car1.png" class="car" alt="yellow Car" id="car1">
+            <img src="img/car2.png" class="car" alt="blue Car" id="car2">
+        </div>
+        <div class="borderlines"></div>
+    <div class="clearfix" id="raceInfoContainer" style="visibility: hidden;">
+        <h2>Results</h2>
+        <div class="raceInfo" id="raceInfo1"><h4>Car 1</h4><span></span></div>
+        <div class="raceInfo" id="raceInfo2"><h4>Car 2</h4><span></span></div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
